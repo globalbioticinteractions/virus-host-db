@@ -1,0 +1,83 @@
+{
+  "columns": [
+    {
+      "name": "sourceTaxonId",
+      "titles": "virus tax id",
+      "datatype": {
+        "base" : "string",
+        "valueUrl" : "http://purl.obolibrary.org/obo/NCBITaxon_{sourceTaxonId}"
+      }
+    },
+    {
+      "name": "sourceTaxonName",
+      "titles": "virus name",
+      "datatype": "string"
+    },
+    {
+      "name": "virus lineage",
+      "titles": "virus lineage",
+      "datatype": "string"
+    },
+    {
+      "name": "refseq id",
+      "titles": "refseq id",
+      "datatype": "string"
+    },
+    {
+      "name": "KEGG GENOME",
+      "titles": "KEGG GENOME",
+      "datatype": "string"
+    },
+    {
+      "name": "KEGG DISEASE",
+      "titles": "KEGG DISEASE",
+      "datatype": "string"
+    },
+    {
+      "name": "DISEASE",
+      "titles": "DISEASE",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonId",
+      "titles": "host tax id",
+      "datatype": {
+        "base" : "string",
+        "valueUrl" : "http://purl.obolibrary.org/obo/NCBITaxon_{targetTaxonId}"
+      }
+    },
+    {
+      "name": "targetTaxonName",
+      "titles": "host name",
+      "datatype": "string"
+    },
+    {
+      "name": "host lineage",
+      "titles": "host lineage",
+      "datatype": "string"
+    },
+    {
+      "name": "referenceUrl",
+      "titles": "pmid",
+      "datatype": {
+        "base" : "string",
+        "valueUrl" : "https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
+      }
+    },
+    {
+      "name": "basisOfRecord",
+      "titles": "evidence",
+      "datatype": "string"
+    },
+    {
+      "name": "sample type",
+      "titles": "sample type",
+      "datatype": "string"
+    },
+    {
+      "name": "source organism",
+      "titles": "source organism",
+      "datatype": "string"
+    }
+  ]
+}

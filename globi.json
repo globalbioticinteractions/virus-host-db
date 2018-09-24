@@ -1,0 +1,14 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "rdfs:comment": ["inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"],
+  "tables": [
+    { "url": "ftp://ftp.genome.jp/pub/db/virushostdb/virushostdb.daily.tsv",
+      "dcterms:bibliographicCitation": "Mihara, T., Nishimura, Y., Shimizu, Y., Nishiyama, H., Yoshikawa, G., Uehara, H., Hingamp, P., Goto, S., and Ogata, H.; Linking virus genomes with host taxonomy. Viruses 8, 66 doi:10.3390/v8030066 (2016).",
+      "tableSchema": "schema.json",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002556",
+      "interactionTypeName": "pathogenOf"
+    }
+  ]
+}
