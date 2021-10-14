@@ -61,11 +61,11 @@
       "titles": "pmid",
       "datatype": {
         "base" : "string",
-        "valueUrl" : "https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
+        "valueUrl" : "https://www.ncbi.nlm.nih.gov/pubmed/{referenceUrl}"
       }
     },
     {
-      "name": "basisOfRecord",
+      "name": "basisOfRecordName",
       "titles": "evidence",
       "datatype": "string"
     },
