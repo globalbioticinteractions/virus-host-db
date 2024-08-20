@@ -19,9 +19,12 @@
       "datatype": "string"
     },
     {
-      "name": "refseq id",
+      "name": "sourceOccurrenceId",
       "titles": "refseq id",
-      "datatype": "string"
+      "datatype": {
+        "base" : "string",
+        "valueUrl" : "https://www.ncbi.nlm.nih.gov/nuccore/{sourceOccurrenceId}"
+      }
     },
     {
       "name": "KEGG GENOME",
