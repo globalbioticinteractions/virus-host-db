@@ -62,6 +62,7 @@
     {
       "name": "referenceUrl",
       "titles": "pmid",
+      "separator": ",",
       "datatype": {
         "base" : "string",
         "valueUrl" : "https://www.ncbi.nlm.nih.gov/pubmed/{referenceUrl}"
